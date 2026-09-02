@@ -11,7 +11,7 @@ const sections = [
   ["best-modern", "Best Modern Yo Mama Jokes", "Phones, work, streaming and group chats—used as settings, not substitutes for a joke."],
   ["best-one-liners", "Best One-Liners", "Ten compact lines with no extra luggage."],
   ["battle-ready", "Best Battle-Ready Roasts", "Material that sounds at home under a ticking clock."],
-  ["arena-picks", "Roast Arena Picks", "Specific premises, clean turns and just enough oddness."],
+  ["arena-picks", "Roast Clash Picks", "Specific premises, clean turns and just enough oddness."],
   ["clever-finishes", "Best Clever Jokes", "The final word changes the whole picture."],
 ] as const;
 

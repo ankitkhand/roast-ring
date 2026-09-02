@@ -35,7 +35,7 @@ export default function YoMamaBattlePage() {
         <p>The sharper premise wins the round. The full battle runs for three.</p>
       </section>
 
-      <ContentSection id="difference" title="Why Roast Arena is different">
+      <ContentSection id="difference" title="Why Roast Clash is different">
         <div className="feature-list">
           <p><strong>Timed rounds</strong><span>No endless drafting. The clock keeps the comeback honest.</span></p>
           <p><strong>Score-based competition</strong><span>Every line gets more than a generic thumbs-up.</span></p>

@@ -1,4 +1,4 @@
-# Roast Arena
+# Roast Clash
 
 A mobile-first, three-round AI comedy battle MVP. Players trade Yo Mama jokes with **The Mouth**, receive structured judging, share a stable result, and challenge a friend without creating an account.
 
@@ -40,7 +40,7 @@ On Vercel, the app reads `x-vercel-forwarded-for`; on Cloudflare, it reads `cf-c
 
 ## Beta storage mode
 
-Roast Arena supports two implementations of the same battle-security contract. Switching stores does not change gameplay, sequencing, limits, idempotency, locks, timeouts, or challenge handling.
+Roast Clash supports two implementations of the same battle-security contract. Switching stores does not change gameplay, sequencing, limits, idempotency, locks, timeouts, or challenge handling.
 
 ### Memory: temporary single-instance beta
 

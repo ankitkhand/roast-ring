@@ -3,6 +3,7 @@ import { siteConfig } from "@/lib/config";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+export const alt = `${siteConfig.gameName} | ${siteConfig.name}`;
 
 export default function OpenGraphImage() {
   return new ImageResponse(

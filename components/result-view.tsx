@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { Brand } from "./brand";
 import { track } from "@/lib/analytics";
 import { encodeChallenge } from "@/lib/codec";
+import { siteConfig } from "@/lib/config";
 import type { BattleResult } from "@/lib/types";
 
 async function copy(value: string) {
@@ -39,7 +40,7 @@ export function ResultView({ result }: { result: BattleResult }) {
 
   async function shareResult() {
     const url = window.location.href;
-    const shareData = { title: "My Roast Arena result", text: `I scored ${result.userTotal.toFixed(1)} against The Mouth. Think you can beat me?`, url };
+    const shareData = { title: `My ${siteConfig.name} result`, text: `I scored ${result.userTotal.toFixed(1)} against The Mouth. Think you can beat me?`, url };
     if (navigator.share) {
       try { await navigator.share(shareData); track("result_shared", { method: "native" }); return; } catch { /* user cancelled */ }
     }

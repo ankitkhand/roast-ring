@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   keywords: ["yo mama jokes", "AI roast battle", "roast battle", "comedy game"],
   alternates: { canonical: "/" },
   openGraph: {
-    title: `${siteConfig.gameName} — Battle The Mouth`,
+    title: `${siteConfig.gameName} | ${siteConfig.name}`,
     description: siteConfig.description,
     url: "/",
     siteName: siteConfig.name,
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: siteConfig.gameName, description: siteConfig.description },
+  twitter: { card: "summary_large_image", title: `${siteConfig.gameName} | ${siteConfig.name}`, description: siteConfig.description },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

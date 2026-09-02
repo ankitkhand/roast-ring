@@ -7,7 +7,7 @@ export function developmentTimer(label: string) {
   return () => {
     const duration = elapsedMilliseconds(startedAt);
     if (process.env.NODE_ENV === "development") {
-      console.info(`[Roast Arena timing] ${label}: ${duration}ms`);
+      console.info(`[Roast Clash timing] ${label}: ${duration}ms`);
     }
     return duration;
   };
@@ -15,6 +15,6 @@ export function developmentTimer(label: string) {
 
 export function logDevelopmentDuration(label: string, duration: number) {
   if (process.env.NODE_ENV === "development") {
-    console.info(`[Roast Arena timing] ${label}: ${Math.max(0, Math.round(duration))}ms`);
+    console.info(`[Roast Clash timing] ${label}: ${Math.max(0, Math.round(duration))}ms`);
   }
 }

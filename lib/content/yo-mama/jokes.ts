@@ -62,7 +62,7 @@ export const bestJokes = makeJokes("clever", [
   ["best-battle-09", "confidence", "Yo mama dropped the mic, then asked it to explain the joke."],
   ["best-battle-10", "punchlines", "Yo mama’s joke took so long, the audience developed a sequel."],
 
-  // Roast Arena picks
+  // Roast Clash picks
   ["best-arena-01", "work", "Yo mama delegates so much, her to-do list has a management team."],
   ["best-arena-02", "money", "Yo mama budgets so badly, her calculator requested hazard pay."],
   ["best-arena-03", "cooking", "Yo mama’s recipes are so confusing, the ingredients formed a support group."],

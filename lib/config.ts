@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Roast Arena",
-  shortName: "RA",
+  name: "Roast Clash",
+  shortName: "RC",
   gameName: "Yo Mama Battle",
   description: "Battle The Mouth in three rapid-fire rounds of AI-powered Yo Mama jokes.",
   opponent: {
@@ -8,9 +8,6 @@ export const siteConfig = {
     name: "THE MOUTH",
     tagline: "All bark. Even more bite.",
     avatar: "M",
-  },
-  social: {
-    handle: "@roastarena",
   },
 } as const;
 

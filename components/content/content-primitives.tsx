@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Brand } from "@/components/brand";
-import { siteUrl } from "@/lib/config";
+import { siteConfig, siteUrl } from "@/lib/config";
 import type { ContentPageDefinition, YoMamaJoke } from "@/lib/content/yo-mama/types";
 import { ContentPageAnalytics, JokeCopyButton, TrackedContentLink } from "./content-interactions";
 
@@ -34,7 +34,7 @@ export function ContentShell({ page, children }: { page: ContentPageDefinition; 
 export function Breadcrumbs({ page }: { page: ContentPageDefinition }) {
   const isHub = page.slug === "yo-mama-jokes";
   const items = [
-    { name: "Roast Arena", path: "/" },
+    { name: siteConfig.name, path: "/" },
     ...(isHub ? [] : [{ name: "Yo Mama Jokes", path: "/yo-mama-jokes" }]),
     { name: page.h1, path: `/${page.slug}` },
   ];
@@ -152,7 +152,7 @@ export function ContentFooter() {
         <Link href="/yo-mama-roasts">ROASTS</Link>
         <Link href="/yo-mama-battle">BATTLE</Link>
       </nav>
-      <span>© {new Date().getFullYear()} ROAST ARENA</span>
+      <span>© {new Date().getFullYear()} {siteConfig.name.toUpperCase()}</span>
     </footer>
   );
 }

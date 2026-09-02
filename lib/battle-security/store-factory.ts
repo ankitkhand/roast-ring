@@ -43,7 +43,7 @@ function redisCredentials() {
 function warnForProductionMemoryMode() {
   if (process.env.NODE_ENV !== "production" || memoryWarningLogged) return;
   memoryWarningLogged = true;
-  console.warn(`[Roast Arena security]
+  console.warn(`[Roast Clash security]
 Memory battle store enabled.
 
 This mode provides process-local:
