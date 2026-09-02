@@ -50,7 +50,7 @@ export const contentPages: Record<ContentSlug, ContentPageDefinition> = {
   },
   "yo-mama-battle": {
     slug: "yo-mama-battle",
-    title: `Yo Mama Battle: Enter ${siteConfig.name} and Beat The Mouth`,
+    title: `Yo Mama Battle: Beat The Mouth | ${siteConfig.name}`,
     h1: "Yo Mama Battle",
     description: "Enter a three-round Yo Mama battle against The Mouth. You have 45 seconds to answer before creativity, savagery and originality are scored.",
     eyebrow: "45 SECONDS. THREE ROUNDS. ONE BIG MOUTH.",
